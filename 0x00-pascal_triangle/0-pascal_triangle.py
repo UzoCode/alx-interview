@@ -2,13 +2,13 @@
 """
 Function that generate pascal triangle to the nth row
 """
+
+
 def pascal_triangle(n):
     """
-    Args:
-        n (int): The row of the pascal triangle to generate
+    Args: n (int): The row of the pascal triangle to generate
 
-    Return:
-        list: A list of lists, each sublist is a row of the pascal triangle.
+    Returns: A list of lists, each sublist is a row of the pascal triangle.
         Returns an empty list if n <= 0.
     """
     if n <= 0:
